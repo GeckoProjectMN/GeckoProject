@@ -1,0 +1,22 @@
+[Unit]
+Description=Geckocoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=geckocoincore
+Group=geckocoincore
+
+Type=forking
+PIDFile=/var/lib/geckocoind/geckocoind.pid
+ExecStart=/usr/bin/geckocoind -daemon -pid=/var/lib/geckocoind/geckocoind.pid \
+-conf=/etc/geckocoincore/geckocoin.conf -datadir=/var/lib/geckocoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

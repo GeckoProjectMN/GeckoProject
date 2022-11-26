@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/geckocoin_ar.qm</file>
+        <file alias="bg">locale/geckocoin_bg.qm</file>
+        <file alias="de">locale/geckocoin_de.qm</file>
+        <file alias="en">locale/geckocoin_en.qm</file>
+        <file alias="es">locale/geckocoin_es.qm</file>
+        <file alias="fi">locale/geckocoin_fi.qm</file>
+        <file alias="fr">locale/geckocoin_fr.qm</file>
+        <file alias="it">locale/geckocoin_it.qm</file>
+        <file alias="ja">locale/geckocoin_ja.qm</file>
+        <file alias="ko">locale/geckocoin_ko.qm</file>
+        <file alias="nl">locale/geckocoin_nl.qm</file>
+        <file alias="pl">locale/geckocoin_pl.qm</file>
+        <file alias="pt">locale/geckocoin_pt.qm</file>
+        <file alias="ro">locale/geckocoin_ro.qm</file>
+        <file alias="ru">locale/geckocoin_ru.qm</file>
+        <file alias="sk">locale/geckocoin_sk.qm</file>
+        <file alias="th">locale/geckocoin_th.qm</file>
+        <file alias="tr">locale/geckocoin_tr.qm</file>
+        <file alias="vi">locale/geckocoin_vi.qm</file>
+        <file alias="zh_CN">locale/geckocoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/geckocoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

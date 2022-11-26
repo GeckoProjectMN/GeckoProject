@@ -1,0 +1,6 @@
+usr/local/bin/geckocoin-qt usr/bin
+share/pixmaps/geckocoin32.xpm usr/share/pixmaps
+share/pixmaps/geckocoin16.xpm usr/share/pixmaps
+share/pixmaps/geckocoin128.png usr/share/pixmaps
+debian/geckocoin-qt.desktop usr/share/applications
+debian/geckocoin-qt.protocol usr/share/kde4/services/

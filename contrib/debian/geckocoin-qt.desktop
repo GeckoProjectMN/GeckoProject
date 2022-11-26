@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Geckocoin Core
+Comment=Geckocoin P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Geckocoin peer-to-peer Netzwerk
+Comment[fr]=Geckocoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Geckocoin, eşten eşe kriptografik sanal para birimi
+Exec=geckocoin-qt %u
+Terminal=false
+Type=Application
+Icon=geckocoin128
+MimeType=x-scheme-handler/geckocoin;
+Categories=Office;Finance;
