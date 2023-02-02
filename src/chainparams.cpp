@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2020 The Dash Core developers
@@ -458,10 +448,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0"); // 0
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000013935fd83ae"); // 0
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x0"); // 0
+        consensus.defaultAssumeValid = uint256S("0x0x8239cc68dabf4be5ee148555b48c89109998fa3d67eac899ed5747e13cad570d"); // 0
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -538,7 +528,8 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-                {0, uint256S("0xa90eb1c028fe12874b66bdeebdcc36116bc766d90515e0d27afa814d85cd1aca")}
+                {5150, uint256S("0x7d8c5cc13259cc07d293d4b4008e4279df59e317dc1dde37198a6ab4268433ac")},
+				{36000, uint256S("0x8239cc68dabf4be5ee148555b48c89109998fa3d67eac899ed5747e13cad570d")}
            }
         };
 
